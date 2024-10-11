@@ -1,0 +1,59 @@
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    background-color: #E1EBDC;
+    padding: 30px;
+    box-shadow: 0px 4px 10px #0000001a;
+    height: 704px;
+}
+
+.imageContainer {
+    display: flex;
+    align-items: center;
+}
+
+.homeImage {
+    max-width: 500px;
+    height: 650px;
+    border-radius: 10px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.textContainer h2 {
+    font-family: 'CormorantGaramondBold', Helvetica, sans-serif;
+    font-size: 72px;
+    color: #40513B;
+}
+
+.textContainer p {
+    font-size: 1.2rem;
+    color: #6C8F70;
+}
+
+.startBtn {
+    background-color: #6C8F70;
+    color: white;
+    padding: 15px 30px;
+    margin: 0px 0px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 320px;
+    transition: background-color 0.3s;
+}
+
+.startBtn:hover {
+    background-color: #3f6147;
+}
