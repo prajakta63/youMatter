@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #FDE2AB;
+}
+
+.card {
+    width: 40%;
+    text-align: center;
+}
+
+.cardImage {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #40513B;
+    margin-bottom: 1rem;
+}
+
+.subheading {
+    font-size: 1rem;
+    color: #6C8F70;
+    margin-bottom: 1.5rem;
+}
+
+.link {
+    color: #40513B;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.input {
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #40513B;
+    border-radius: 5px;
+}
+
+.button {
+    width: 85%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #6C8F70;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2ecc71;
+}

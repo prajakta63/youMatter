@@ -3,6 +3,8 @@ import { Footer } from './component/Footer/Footer'
 import { Home } from './component/Home/Home'
 import { Navbar } from './component/Navbar/Navbar'
 import { OurMission } from './component/OurMission/OurMission'
+import { ExpressAndConnect } from './component/ExpressAndConnect/ExpressAndConnect'
+import { LoginSignup } from './component/LoginSignup/LoginSignup'
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
     <Navbar/>
     <Home/>
     <OurMission/>
+    <ExpressAndConnect/>
+    <LoginSignup/>
     <Footer />
     </>
   )
