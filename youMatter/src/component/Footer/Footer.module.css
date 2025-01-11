@@ -1,4 +1,40 @@
-.container{
+.footer {
     background-color: #FBF7F0;
-    height: 200px;
-}
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .iconLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #FFCC66;
+    transition: transform 0.3s ease;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .iconLink:hover {
+    transform: scale(1.1);
+    color: #FFCC66;
+  }
+  
+  .footerText {
+    font-size: 20px;
+    color: #FFCC66;
+    margin: 10px;
+    padding: 10px;
+  }  
